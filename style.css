@@ -185,32 +185,12 @@ footer {
         margin: 3rem 0;
     }
 }
-@media (min-width: 481px) and (max-width: 900px) {
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
+@media (min-width: 600px) and (max-width: 1200px) and (orientation: landscape) {
     .nav {
-        margin-right: 2rem;
-        display: grid;
-        grid-template-rows: 1fr 2fr;
-    }
-    .nav .navigation ul {
-        flex-direction: column;
-        gap: 1.5rem;
-        align-items: center;
-    }
-    .nav .logo img {
-        width: 2rem;
-        height: 5vh;
+        padding: 2rem;
     }
     .home {
-        max-width: 70vw;
-        align-items: center;
-    }
-    .home .text{
-        padding-right: 0;
+        padding: 0;
     }
     .back {
         display: none;
@@ -218,6 +198,6 @@ footer {
     .home .text button {
         width: 100%;
         padding: 15px;
-        margin: 3rem 0;
+        margin: 3rem 7rem;
     }
 }
